@@ -12,6 +12,7 @@ ENV DB_PORT 3306
 ENV DB_DATABASE polr
 ENV DB_USERNAME polr
 ENV POLR_BASE 62
+ENV POLR_CACHE file
 
 # Install packages and remove default server definition
 RUN apk --no-cache add bash git nginx supervisor curl && \
